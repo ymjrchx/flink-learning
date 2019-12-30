@@ -13,7 +13,7 @@ import java.util.Properties;
  * Blog: http://www.54tianzhisheng.cn/tags/Flink/
  */
 public class KafkaUtil {
-    public static final String broker_list = "localhost:9092";
+    public static final String broker_list = "192.168.254.80:9091,192.168.254.80:9092,192.168.254.80:90";
     public static final String topic = "student";  //kafka topic 需要和 flink 程序用同一个 topic
 
     public static void writeToKafka() throws InterruptedException {

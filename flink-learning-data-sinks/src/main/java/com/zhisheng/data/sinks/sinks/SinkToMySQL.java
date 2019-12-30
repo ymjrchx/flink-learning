@@ -59,6 +59,7 @@ public class SinkToMySQL extends RichSinkFunction<Student> {
         if (ps == null) {
             return;
         }
+        System.out.println(value);
         //组装数据，执行插入操作
         ps.setInt(1, value.getId());
         ps.setString(2, value.getName());

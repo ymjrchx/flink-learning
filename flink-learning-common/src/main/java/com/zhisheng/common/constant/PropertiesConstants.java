@@ -8,7 +8,7 @@ package com.zhisheng.common.constant;
 public class PropertiesConstants {
     public static final String ZHISHENG = "zhisheng";
     public static final String KAFKA_BROKERS = "kafka.brokers";
-    public static final String DEFAULT_KAFKA_BROKERS = "localhost:9092";
+    public static final String DEFAULT_KAFKA_BROKERS = "192.168.254.80:9091,192.168.254.80:9092,192.168.254.80:90";
     public static final String KAFKA_ZOOKEEPER_CONNECT = "kafka.zookeeper.connect";
     public static final String DEFAULT_KAFKA_ZOOKEEPER_CONNECT = "localhost:2181";
     public static final String KAFKA_GROUP_ID = "kafka.group.id";
